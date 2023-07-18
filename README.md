@@ -31,4 +31,4 @@ This design is Free Software; you can redistribute it and/or modify it under the
 
 This design is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the "GNU General Public License" for more details.
 
-[1]: http://kicad-pcb.org/
+[1]: https://www.kicad.org/
