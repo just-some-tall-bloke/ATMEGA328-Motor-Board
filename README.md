@@ -17,10 +17,10 @@ The ATMEGA328-Motor-Board is a motor control board using an ATMEGA328 microcontr
 
 ## Images
 Top side
-![Top side](/imagenes/cara_superior.png)
+![Top side](/images/top_side.png)
 
 Bottom side
-![Bottom side](/imagenes/cara_inferior.png)
+![Bottom side](/images/bottom_side.png)
 
 ## Bill of Materials
 References | Value | Total Units
