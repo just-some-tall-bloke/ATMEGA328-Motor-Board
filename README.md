@@ -1,36 +1,34 @@
 # ATMEGA328-Motor-Board
-La placa ATMEGA328-Motor-Board es una tarjeta controladora para motores utilizando un microcontrolador ATMEGA328 y dos drivers para motores L298P, creada con plataforma Open Source de diseño EDA [KiCad][1]
+The ATMEGA328-Motor-Board is a motor control board using an ATMEGA328 microcontroller and two L298P motor drivers, created with the Open Source EDA design platform [KiCad][1].
 
-## Caracteristicas
+## Features
 
-- Tensión de alimentación para la circuiteria de control : 5 - 36 (VDC)
-- Tensión de alimentación para la potencia de los motores : 7,5 - 46 (VDC)
-- Permite controlar hasta 4 motores de corriente continua (max 3 Amperios), 2 motores de corriente continua (max 6 Amperios) o dos motores paso a paso (max 6 Amperios).
-- Permite controlar hasta 4 servomotores a 5 VDC mediante señales PWM.
-- Dispone de dos conectores para encoder incremental bicanal con tensión de alimentación configurable 5 o 24 VDC
-- Dispone de dos conectores para potenciómetros o señales análogicas de consigna 0 - 5 VDC.
-- Permite monitorizar el consumo de cada uno de los cuatro canales de alimentación de motores de forma independiente.
-- Dispone de tres entradas digitales 5 o 24 VDC optoacopladas para señales de propósito general (Enable, Run, Stop)
-- Dispone de dos salidas digitales de tensión de salida configurable para señales de propósito general.
-- Dispone de puerto Mini-USB para comunicación serie con el controlador de la tarjeta.
-- Dispone de tres indicadores LED para la comunicación de diversos estados de los drivers o control.
+- Control circuitry power supply voltage: 5 - 36 (VDC)
+- Motor power supply voltage: 7.5 - 46 (VDC)
+- Can control up to 4 DC motors (max 3 Amperes), 2 DC motors (max 6 Amperes), or two stepper motors (max 6 Amperes).
+- Can control up to 4 servomotors at 5 VDC using PWM signals.
+- Two connectors for incremental dual-channel encoders with configurable 5 or 24 VDC power supply voltage.
+- Two connectors for potentiometers or analog setpoint signals 0 - 5 VDC.
+- Can monitor the current consumption of each of the four motor power channels independently.
+- Three 5 or 24 VDC opto-isolated digital inputs for general-purpose signals (Enable, Run, Stop).
+- Two configurable voltage output digital outputs for general-purpose signals.
+- Mini-USB port for serial communication with the board controller.
+- Three LED indicators for communication of various driver or control states.
 
+## Images
+Top side
+![Top side](/imagenes/cara_superior.png)
 
-## Imagenes
-Cara superior
-![Cara superior](/imagenes/cara_superior.png)
+Bottom side
+![Bottom side](/imagenes/cara_inferior.png)
 
-Cara inferior
-![Cara inferior](/imagenes/cara_inferior.png)
-
-## Lista de materiales
-Refencias | Valor | Total Uds
+## Bill of Materials
+References | Value | Total Units
 ----------|-------|-----------
 
+## License
+This design is Free Software; you can redistribute it and/or modify it under the terms of the "GNU General Public License" as published by the "FSF Free Software Foundation," or (at your option) any later version.
 
-## Licencia
-Este diseño es Software Libre; usted puede redistribuirlo y/o modificarlo bajo los términos de la "GNU General Public License" como lo publica la "FSF Free Software Foundation", o (a su elección) de cualquier versión posterior.
-
-Este diseño es distribuido con la esperanza de que le sea útil, pero SIN NINGUNA GARANTIA; incluso sin la garantía implícita por la VENTA o EJERCICIO DE ALGUN PROPOSITO en particular. Vea la "GNU General Public License" para más detalles.
+This design is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the "GNU General Public License" for more details.
 
 [1]: http://kicad-pcb.org/
